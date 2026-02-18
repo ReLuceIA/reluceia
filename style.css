@@ -83,3 +83,32 @@ nav a:hover {
     max-width: 800px;
     margin: auto;
 }
+/* RESPONSIVO */
+
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+
+    .inicio {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .imagem-contato img {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    .texto {
+        max-width: 100%;
+    }
+
+}
